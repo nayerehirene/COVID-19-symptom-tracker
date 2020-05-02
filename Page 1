@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>COVID-19 Symptom Tracker</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tracker.html">Symptom Tracker</a></li>
+      <li><a href="covid.html"> COVID-19 Info</a></li>
+    </ul>
+    <img
+      src="https://tse1.mm.bing.net/th?id=OIP.z6Gm7su-RKeLCLCI39mn4gHaC9&pid=Api"
+      alt="Girl in a jacket"
+      width="1350"
+      height="200"
+    />
+
+    <h1>Welcome To The COVID-19 Symptom Tracker</h1>
+    <br />
+    <hr />
+
+    <h2>
+      During this difficult time, we are prioritizing your health and the health
+      of others. With the help of our symptom tracker, you can monitor your
+      symptoms and any changes that may occur.
+    </h2>
+    <hr />
+    <p>
+      We also understand that this time can be a bit rough and boring, so we
+      have included a couple of rescources you can use, grouped by age, for your
+      convinience.
+    </p>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    <button onclick="https://www.youtube.com/watch?v=-jewzNhhUxs">
+      Funny video for all ages
+    </button>
+    <button
+      onclick="https://www.tcpalm.com/story/news/2020/04/07/coronavirus-florida-19-fun-things-keep-kids-busy-during-stay-home/2953288001/"
+    >
+      Ages 1-10
+    </button>
+    <button
+      onclick="https://www.capecod.com/entertainment/that-girls-blog-10-things-to-do-with-your-teens/"
+    >
+      Ages 11+
+    </button>
+  </body>
+</html>
